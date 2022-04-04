@@ -81,7 +81,7 @@ export default function Detail({ match }) {
 
 ```jsx | pure
 // demo/_layout.js
-export default function DemoLauout({ children }) {
+export default function DemoLayout({ children }) {
   return (
     <div>
       <h1>demo-layout</h1>

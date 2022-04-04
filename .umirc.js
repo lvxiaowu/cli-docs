@@ -11,11 +11,11 @@ export default {
   menus: {
     '/cli': [
       {
-        title: '脚手架cli',
+        title: '@lvxiaowu/cli',
         children: ['cli/index', 'cli/use'],
       },
       {
-        title: '@sd/admin',
+        title: '@lvxiaowu/admin',
         children: [
           'cli/admin',
           'cli/page-router',

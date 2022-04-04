@@ -7,7 +7,7 @@ Http 封装发送请求相关，是基于 [axios](https://github.com/axios/axios
 ## 用法
 
 ```js
-import { http } from '@sd/utils'
+import { http } from '@lvxiaowu/utils'
 function getList() {
   http({
     method: 'get', // post|delete|put 等，默认是get

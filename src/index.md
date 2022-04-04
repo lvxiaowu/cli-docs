@@ -17,7 +17,7 @@ features:
   - icon: https://gw.alipayobjects.com/zos/bmw-prod/d1ee0c6f-5aed-4a45-a507-339a4bfe076c/k7bjsocq_w144_h144.png
     title: 共同参与
     desc: 让大家共同参数开发维护，包括文档的书写、让大家共同进步
-footer: 闪电出行 | 前端
+footer: 开发者文档
 ---
 
 ## 快速开发
@@ -25,21 +25,19 @@ footer: 闪电出行 | 前端
 快速创建一个新工程
 
 ```bash
-// 设置 npm 源
-npm set registry http://npm.shandiantech.com
 
-yarn config set registry http://npm.shandiantech.com
+// 全局安装 @lv/cli
+$ npm i @lvxiaowu/cli -g
 
-// 全局安装 @sd/cli
-$ npm i @sd/cli -g
+// 更新
+$ lv update
+
+// 初始化工程
+$ lv init
 
 // 创建工程
-$ sd create project-name
+$ lv create project-name
 
 // 启动工程
 $ cd project-name && npm start
 ```
-
-## 开发维护
-
-由闪电出行前端团队共同维护开发

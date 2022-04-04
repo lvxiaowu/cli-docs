@@ -11,15 +11,15 @@ nav:
 - 安装：
 
 ```shell script
-yarn add @sd/utils
+yarn add @lvxiaowu/utils
 ```
 
 - 使用：
 
-> **@sd/utils** 支持基于 ES modules 的 tree shaking
+> **@lvxiaowu/utils** 支持基于 ES modules 的 tree shaking
 
 ```jsx | pure
-import { http } from '@sd/utils'
+import { http } from '@lvxiaowu/utils'
 
 http({
   url: '/api/xxx',

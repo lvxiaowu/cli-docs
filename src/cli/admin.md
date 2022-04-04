@@ -63,10 +63,10 @@ mock 目录下的所有 js 文件都会被当做 mock 文件
 > 所有的 mock 文件必须用 `module.exports` 导出,
 > 其中 mock 数据是使用了 [mockjs](https://github.com/nuysoft/Mock/wiki/Getting-Started) 的规范
 
-> 其中要开启 mock 必须使用 [@sd/utils](/utils) 中 **http** 模块
+> 其中要开启 mock 必须使用 [@lvxiaowu/utils](/utils) 中 **http** 模块
 
 ```jsx | pure
-import { http } from '@sd/utils'
+import { http } from '@lvxiaowu/utils'
 import { useEffect, useState } from 'react'
 
 export default function Index() {

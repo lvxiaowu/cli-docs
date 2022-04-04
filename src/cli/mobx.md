@@ -28,10 +28,13 @@ title: 状态管理（mobx）
  */
 import React from 'react'
 import { observer } from 'mobx-react'
-import { observable } from 'mobx'
+import { makeAutoObservable } from 'mobx'
 
 class Store {
-  @observable count = 0
+  constructor() {
+    makeAutoObservable(this)
+  }
+  count = 0
   setCount = () => {
     this.count++
   }
