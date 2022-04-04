@@ -1,11 +1,10 @@
 export default {
   mode: 'site',
-  title: '闪电出行',
-  logo: '/docs/logo.png',
-  favicon: '/docs/logo.png',
-  base: 'docs',
-  publicPath: '/docs/',
-  // publicPath:'./',
+  title: '文档说明',
+  logo: '/cli-docs/logo.png',
+  favicon: '/cli-docs/logo.png',
+  base: 'cli-docs',
+  publicPath: '/cli-docs/',
   extraBabelPlugins: [
     ['import', { style: true, libraryName: 'antd', libraryDirectory: 'es' }, 'antd'],
   ],

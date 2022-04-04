@@ -1,15 +1,16 @@
 {
-  "name": "sd-docs",
+  "name": "cli-docs",
   "version": "0.0.1",
-  "description": "sd-docs",
+  "description": "cli-docs",
   "keywords": [
     "react"
   ],
-  "author": "zhangchao",
+  "author": "lvxiaowu",
   "license": "ISC",
   "scripts": {
     "start": "dumi dev",
-    "build": "dumi build"
+    "build": "dumi build",
+    "deploy": "bash deploy.sh"
   },
   "prettier": {
     "semi": false,
@@ -24,6 +25,7 @@
     "@ant-design/icons": "^4.3.0",
     "antd": "^4.10.1",
     "babel-plugin-import": "^1.13.3",
+    "gh-pages": "^3.2.3",
     "mobx": "^6.1.1",
     "mobx-react": "^7.1.0"
   }
