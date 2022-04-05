@@ -29,5 +29,17 @@ export default {
         ],
       },
     ],
+    '/analysis': [
+      {
+        title: '介绍',
+        children: [
+          '/analysis/router',
+          '/analysis/micro',
+          '/analysis/mock',
+          '/analysis/optimize',
+          '/analysis/expand',
+        ],
+      },
+    ],
   },
 }
