@@ -8,10 +8,18 @@ title: 脚手架配置
 
 在项目根目录下新建 `lv.config.js` 来定义配置项，通过 `module.exports` 导出
 
+
+
 ```js
-module.exports = {
-  // ...
-}
+const defineSdConfig = require('@lvxiaowu/admin/lib/defineSdConfig')
+
+module.exports = defineSdConfig((env) => {
+  return {
+    eslint: false,
+    // ...
+  }
+})
+
 ```
 
 ## 配置项
